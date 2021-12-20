@@ -1,12 +1,12 @@
 /* eslint-disable no-return-assign */
 
-// Source: https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-import gradingStudents from './gradingStudents';
+// Source: https://www.hackerrank.com/challenges/day-of-the-programmer/problem?isFullScreen=true
+import dayOfProgrammer from './dayOfProgrammer';
 
 function main() {
   console.log('---------- Cool Programing ----------\n');
-  const testArray = [73, 67, 38, 33];
-  const result = gradingStudents(testArray);
+  const testDay = 1800;
+  const result = dayOfProgrammer(testDay);
   console.log('Result: ', result);
 }
 
