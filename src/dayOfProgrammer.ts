@@ -17,4 +17,3 @@ export default function dayOfProgrammer(year: number): string {
   }
   return leap;
 }
-// && year % 400 === 0) || (year % 4 && year % 100 !== 0) || year % 400 === 0
